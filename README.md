@@ -32,7 +32,7 @@ The Car Rental project is a Spring Boot application designed to manage car renta
 ## Getting Started
 
 ### 1. Clone the repository:
-```bash
+
 git clone https://github.com/ilkerkrbyikk/Car-Rental.git
 2. Configure the database:
 Update your application.properties file with your MySQL database configuration:
@@ -43,50 +43,31 @@ spring.datasource.url=jdbc:mysql://localhost:3306/car_rental_db
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
+
+
 3. Install dependencies:
 Navigate to the project directory and run the following Maven command to download all dependencies:
 
-bash
-Kodu kopyala
+
 mvn clean install
 4. Run the application:
 You can run the application using the following Maven command:
 
-bash
-Kodu kopyala
+
+
 mvn spring-boot:run
 Alternatively, you can package it into a JAR and run the JAR file:
 
 bash
-Kodu kopyala
 mvn package
 java -jar target/car-rental-0.0.1-SNAPSHOT.jar
+
 5. Access the application:
 After starting the application, you can access it in your browser at http://localhost:8080.
 
 
 
 
-## Technologies
-
-• Java
-
-• Spring Framework
-
-• Spring Security
-
-• Spring Boot
-
-• Spring Data JPA
-
-• Hibernate
-
-• MySQL
-
-  
-## Diagram for the application
-
-![Screenshot_1](https://github.com/user-attachments/assets/ddf6ead5-24f1-4ffa-a98f-d4bbb94a5591)
   
 ## Contributors
 
